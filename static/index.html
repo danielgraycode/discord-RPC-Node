@@ -1,0 +1,45 @@
+<!-- Copyright Daniel Gray 2017. See LICENCE.MD for more info -->
+
+<DOCTYPE HTML!>
+    <html>
+
+    <head>
+        <style>
+            .inline {
+                display: inline-block;
+                padding: 3px
+            }
+            
+            .update {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+        </style>
+        <title>Discord RPC</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <img align="center" src="logo.jpg" height="110" width="500">
+        <br>
+        <div class="inline" align="center">
+            <h2>Top Line</h2>
+            <p contenteditable="true" id="topline">placeholder </p>
+        </div>
+        <div class="inline" align="center">
+            <h2>Bottom Line</h2>
+            <p contenteditable="true" id="bottomline"> placeholder</p>
+        </div>
+        <div class="inline" align="center">
+            <h2>Time enabled?</h2>
+            <p id="isTimeEnabled"> placeholder</p>
+        </div>
+        <!-- <div class="update" align="center">
+            <button type="submit" onlick="updatetheRPC();" id="updateRpc">Update RPC</button>
+        </div>
+    -->
+        <script src="renderer.js"></script>
+    </body>
+
+    </html>
